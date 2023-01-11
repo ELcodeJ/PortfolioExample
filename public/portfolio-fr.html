@@ -1,0 +1,228 @@
+<style>
+
+    @font-face {
+        font-family: 'Montserrat', sans-serif;
+        src: url('./Monserrat-VariableFont.ttf') format('tff');
+    }
+    
+    #portfolio-wrapper {
+        background-color: #2b2b69;
+        color: rgb(193, 198, 204, 0.7);
+        font-family: 'Montserrat', Fallback, sans-serif;
+        letter-spacing: 0.15em;
+        list-style: none;
+        position: relative;
+        width: 800px;
+        margin: 0 auto;
+        padding-top: 60px;
+        
+    }
+    ::-webkit-scrollbar {
+        display:none
+    }
+    div > iframe {
+        border: none !important;
+    }
+    ul li {
+        list-style: none !important;
+        text-decoration: none;
+    }
+    
+    #portfolio-wrapper ul li {
+        list-style: none !important;
+        text-decoration: none;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #portfolio-wrapper h1, #portfolio-wrapper h2, #portfolio-wrapper h3, #portfolio-wrapper h4, #portfolio-wrapper h5 {
+        color: rgb(233, 233, 233);
+    }
+    #content .summary a {
+        color: rgb(40,155,200);
+        text-decoration: none;
+    }
+    #content .summary a:hover {
+        color: rgb(40,205,250);
+        text-decoration: underline;
+    }
+    header {
+        width: 100% ;
+        height: fit-content;
+        position: relative;
+        top: -20px;
+        left: 0;
+        display: block;
+    }
+    header h1 {
+            margin: 10px 0 10px 0;
+        font-size: 60px;
+    }
+    header h2 {
+        margin: 0px 0px 10px 0px;
+        font-size: 40px;
+    }
+    header p {
+        margin-top : 20px;
+        font-size: 30px;
+    }
+    #content h2 {
+        font-size: 35px;
+        letter-spacing: 0.10em;
+        margin-bottom: 20px;
+    }
+    #content h4, #content h5 {
+        font-size: 22px;
+    }
+    #contact-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-bottom: 40px;
+    }
+    #contact-menu h2 {
+        font-size: 35px;
+    }
+    
+    #contact-menu li {
+        margin: 10px 0 0 0;
+    }
+    #contact-menu li a {
+        padding: 15px 30px 15px 30px;
+        border: 1px solid #eee;
+        justify-content: space-between;
+        background-color: rgb(193, 198, 204, 0.7);
+        border-radius: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #2b2b69;
+    }
+    #contact-menu li a:hover {
+        background-color: rgba(0,0,0, 0);
+        color: whitesmoke;
+        transition: all 300ms;
+    }
+    #experience-list {
+        margin: 0;
+    }
+    .project {
+        color: antiquewhite;
+        font-size: 22px;
+    }
+    .exp-item .summary {
+        color: rgb(177, 141, 97);
+        font-size: 20px;
+    }
+    .exp-item h4, .exp-item h5, .exp-item > p {
+        margin: 8px 0;
+    }
+    .exp-item > p {
+        margin-bottom: 30px;
+    }
+    
+</style>
+<body id="portfolio-wrapper">
+    <header >
+      <h1>  Eloic Lafine </h1>
+        <h2> Creative Javascript Developer </h2>
+
+        <p>Développeur diplômé avec plus de 3 ans d'expérience dans le codage&Programmation . 
+            2+ an d'expérience commerciale, 2+ an d'expérience full stack.
+            Recherche un emploi en France&Europe</p>
+    </header>
+    <main id="content">
+        <h2>
+            Contact
+        </h2>
+        <ul id="contact-menu">
+            <li><a href="https://www.linkedin.com/in/eloic-lafine-21944117b/">linkedIn</a></li>
+            <li><a href="mailto:elj.lafine@gmail.com">Email</a></li>
+            <li><a href="#">GitHub</a></li>
+        </ul>
+
+        <div>
+            <h2>Experiences De developeur</h2>
+
+            <ul id="experiences-list">
+                <li class="exp-item">
+                    <h4>Web Developer</h4>
+                    <h5>Cinos Full-time</h5>
+                    <p>Dec 2021 - Dec 2022 <br>
+                        London, England, United Kingdom
+                    </p>
+                    <p class="summary">En tant que Web Wordpress, je suis actuellement responsable de la refonte du site Cinos.net. mon rôle est de prendre les briefs du chef de projets digitaux et de développer le site internet de A à Z. 
+                        S'assurer que le site web répond aux attentes de l'équipe. Compétences techniques : HTML, CSS, Javascript, Avada&Worpress, php, retouche photo, conceptions réactives, principes de conception centrés sur l'utilisateur Compétences générales : communications, esprit d'équipe et réunions d'information
+                    </p>
+                    <p class="summary">Hard skills: <br>
+                        HTML, CSS, Javascript, Avada&Worpress, php, photo editing, responsive designs, user-centered design principles
+                    </p>
+                    <p class="summary">Soft skills: <br>
+                        Communications, team players and briefings with key stakeholders.
+                    </p>
+
+                </li>
+                <li class="exp-item">
+                    <h4>Student Web Developer</h4>
+                    <h5>SAE Institute UK</h5>
+                    <p>Sep 2019 - Sep 2022 <br>
+                        Liverpool, England, United Kingdom
+                    </p>
+                    <p class="summary"> enrolled at SAE Institute to start a new career in the tech industry 
+                        During the first year at SAE, I learned the fundamentals of web development such as 
+                        HTML( including SEO basics and optimisation), 
+                        CSS (grid, animations).
+                        PHP (OOP, login systems, WordPress, phpMyAdmin)
+                        Database( mySql, SQLight)
+                        Javascript (jquery, Bootstrap)
+                    </p>
+                    <p class="summary">Durant la deuxième année, en tant qu'étudiant, nous avons été amenés à construire divers projets en utilisant des compétences acquises en classe mais aussi des compétences autodidactes correspondant à nos intérêts. 
+                        Vous trouverez ci-dessous un résumé des projets travaillés. <br>
+                        <ul>
+                            <li class="project">Bite - Mobile App
+                                <p class="summary">
+                                    Grâce à des évaluations heuristiques sur les sites Web et les applications mobiles. En tant que groupe de trois camarades de classe, nous avons créé une application sur Android Studio en utilisant Java 
+                                    et la suite Adobe, pour créer une application qui permettrait à l'utilisateur de commander de la nourriture à l'aide d'un lecteur QR dans un restaurant. 
+                                </p>
+                            </li>
+                            <li class="project">VividVr - VR Social Media platform
+                                <p class="summary">
+                                    En groupe de trois étudiants. Nous avons créé une plate-forme de médias sociaux VR entièrement fonctionnelle utilisant principalement :
+PHP (système de connexion, système de messagerie, informations de profil, fil d'actualité et statut en direct), 
+JavaScript, (IFrame et ThreeJs, Dom manipulation and event handlers), 
+Maya (création et gestion de modèles). Sur ce projet, j'ai été particulièrement impliqué dans le Front-End et la gestion de projet. 
+                                </p>
+                            </li>
+                            <li class="project">Car Showroom - 3D WebApp
+                                <p class="summary">
+                                    Je m'intéresse à WebXR, j'ai donc appris à utiliser Three.Js pour afficher et dessiner des formes 3D afin d'améliorer l'engagement des utilisateurs et leur expérience (UX/UI). 
+Au centre de mon projet majeur, j'ai créé un Car Showroom qui permettait à l'utilisateur de choisir parmi différents modèles de voitures à afficher, naviguer et personnaliser dans un environnement 3D.
+Ce projet a été construit avec Webpack et Node.js pour exécuter le Back-End (configuration et règles du serveur) Javascript & Three.Js (configuration de l'environnement 3D, 
+personnalisation du modèle et toutes les fonctionnalités principales) pour le Front-End Blender (modèle gestion, nettoyage et personnalisation)
+                                </p>
+                                
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li class="exp-item">
+                    <h4>Junior Front-End Developer</h4>
+                    <h5>Mission Eleven - Freelance</h5>
+                    <p>Dec 20 - Dec 2022 <br>
+                        London, England, United Kingdom
+                    </p>
+                    <p class="summary">
+                        Collaboration avec une agence digitale lauréate, travaille d'équipe, développement front-end, première expérience dans l' industrie.
+                    </p>
+                    <p class="summary">Voici deux exemples de projets commerciaux: <br>
+                        <a href="http://illuminatefinancial.com/"> illuminatefinancial </a> <br>
+                        <a href="https://tokyolaundry.com/blogs/news/">tokyolaundry blog </a> 
+                    </p>
+                </li>
+            </ul>
+    </main>
+    <footer >
+    </footer>
+</body>
+</html>

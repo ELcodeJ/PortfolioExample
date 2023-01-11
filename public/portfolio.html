@@ -1,0 +1,236 @@
+<style>
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('./Monserrat-VariableFont.ttf') format('tff');
+}
+canvas {
+    touch-action: none;
+}
+#portfolio-wrapper {
+    background-color: #2b2b69;
+    color: rgb(193, 198, 204, 0.7);
+    font-family: 'Montserrat', Fallback, sans-serif;
+    letter-spacing: 0.15em;
+    list-style: none;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 60px;
+    
+}
+::-webkit-scrollbar {
+    display:none
+}
+div > iframe {
+    border: none !important;
+}
+ul li {
+    list-style: none !important;
+    text-decoration: none;
+}
+
+#portfolio-wrapper ul li {
+    list-style: none !important;
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+#portfolio-wrapper h1, #portfolio-wrapper h2, #portfolio-wrapper h3, #portfolio-wrapper h4, #portfolio-wrapper h5 {
+    color: rgb(233, 233, 233);
+}
+#content .summary a {
+    color: rgb(40,155,200);
+    text-decoration: none;
+}
+#content .summary a:hover {
+    color: rgb(40,205,250);
+    text-decoration: underline;
+}
+header {
+    width: 100% ;
+    height: fit-content;
+    position: relative;
+    top: -20px;
+    left: 0;
+    display: block;
+}
+header h1 {
+        margin: 10px 0 10px 0;
+    font-size: 60px;
+}
+header h2 {
+    margin: 0px 0px 10px 0px;
+    font-size: 40px;
+}
+header p {
+    margin-top : 20px;
+    font-size: 30px;
+}
+#content h2 {
+    font-size: 35px;
+    letter-spacing: 0.10em;
+    margin-bottom: 20px;
+}
+#content h4, #content h5 {
+    font-size: 22px;
+}
+#contact-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 40px;
+}
+#contact-menu h2 {
+    font-size: 35px;
+}
+
+#contact-menu li {
+    margin: 10px 0 0 0;
+}
+#contact-menu li a {
+    padding: 15px 30px 15px 30px;
+    border: 1px solid #eee;
+    justify-content: space-between;
+    background-color: rgb(193, 198, 204, 0.7);
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2b2b69;
+}
+#contact-menu li a:hover {
+    background-color: rgba(0,0,0, 0);
+    color: whitesmoke;
+    transition: all 300ms;
+}
+#experience-list {
+    margin: 0;
+}
+.project {
+    color: antiquewhite;
+    font-size: 22px;
+}
+.exp-item .summary {
+    color: rgb(177, 141, 97);
+    font-size: 20px;
+}
+.exp-item h4, .exp-item h5, .exp-item > p {
+    margin: 8px 0;
+}
+.exp-item > p {
+    margin-bottom: 30px;
+}
+
+ </style>
+</head>
+<body id="portfolio-wrapper">
+    <header >
+      <h1>  Eloic Lafine </h1>
+        <h2> Creative Javascript Developer </h2>
+
+        <p>Passionate Web Developer keen to learn and grow. Enjoy finding creative solutions for modern web challenges.</p>
+    </header>
+    <main id="content" >
+        <h2>
+            Contact
+        </h2>
+        <ul id="contact-menu">
+            <li><a href="https://www.linkedin.com/in/eloic-lafine-21944117b/">linkedIn</a></li>
+            <li><a href="mailto:elj.lafine@gmail.com">Email</a></li>
+            <li><a href="#">GitHub</a></li>
+        </ul>
+
+        <div>
+            <h2>Web Dev Experiences</h2>
+
+            <ul id="experiences-list">
+                <li class="exp-item">
+                    <h4>Web Developer</h4>
+                    <h5>Cinos Full-time</h5>
+                    <p>Dec 2021 - Dec 2022 <br>
+                        London, England, United Kingdom
+                    </p>
+                    <p class="summary">As Wordpress developer, I currently am responsible for Cinos.net website revamping. 
+                        my role is to take briefs from the Head of digital projects manager and develop the website from the ground up. Making sure the website meet the expectations of the team.
+                    </p>
+                    <p class="summary">Hard skills: <br>
+                        HTML, CSS, Javascript, Avada&Worpress, php, photo editing, responsive designs, user-centered design principles
+                    </p>
+                    <p class="summary">Soft skills: <br>
+                        Communications, team players and briefings with key stakeholders.
+                    </p>
+
+                </li>
+                <li class="exp-item">
+                    <h4>Student Web Developer</h4>
+                    <h5>SAE Institute UK</h5>
+                    <p>Sep 2019 - Sep 2022 <br>
+                        Liverpool, England, United Kingdom
+                    </p>
+                    <p class="summary"> enrolled at SAE Institute to start a new career in the tech industry 
+                        During the first year at SAE, I learned the fundamentals of web development such as 
+                        HTML( including SEO basics and optimisation), 
+                        CSS (grid, animations).
+                        PHP (OOP, login systems, WordPress, phpMyAdmin)
+                        Database( mySql, SQLight)
+                        Javascript (jquery, Bootstrap)
+                    </p>
+                    <p class="summary">During the second year, as a student we were required to build various projects using skills leaned in class but also Self-taught skills that matched our interests . 
+                        You will find below a summary of the projects worked on. <br>
+                        <ul>
+                            <li class="project">Bite - Mobile App
+                                <p class="summary">
+                                    Through heuristic evaluations about websites and mobile apps. 
+                                    As a group of three classmates, we created an application on android studio using Java and the adobe suit, 
+                                    to create an app that would allow the user to order food using a QR reader in a restaurant. 
+                                </p>
+                            </li>
+                            <li class="project">VividVr - VR Social Media platform
+                                <p class="summary">
+                                    As a group of three students. We created a fully functional VR social media platform using mainly 
+                                    PHP(login system, messaging system, profile info, news feed, and live status), JavaScript, (IFrame, ThreeJs), Maya (model creation and management).
+                                    On this project, I was particularly involved in the Front-End and the project management side.
+                                </p>
+                            </li>
+                            <li class="project">Car Showroom - 3D WebApp
+                                <p class="summary">
+                                    I am interested in WebXR, so I learned to use Three.Js to display and draw 3D shapes to improve user engagement and experience online. 
+                                    At the center of my major project I created a Car Showroom that allowed the user to choose from different car models to display, navigate and customise in a 3D environment.
+                                    This project has been built with Webpack and Node.js to run the Back-End (server set up and rules)
+                                    Javascript & Three.Js (3D environment setup, model customisation and all the main functionalities) for the Front-End 
+                                    Blender (model management, clean up and customisation)
+                                </p>
+                              
+                            </li>
+                            
+
+                        </ul>
+                    </p>
+
+                </li>
+                <li class="exp-item">
+                    <h4>Junior Front-End Developer</h4>
+                    <h5>Mission Eleven - Freelance</h5>
+                    <p>Dec 20 - Dec 2022 <br>
+                        London, England, United Kingdom
+                    </p>
+                    <p class="summary">Collaborated withy an award winning digital agency, team work, front-end development, first-experience in the web industry whilst studying.
+                    </p>
+                    <p class="summary">To mention a couple of examples: <br>
+                        <a href="http://illuminatefinancial.com/"> illuminatefinancial </a> <br>
+                        <!-- <a href="https://tokyolaundry.com">tokyolaundry blog </a>  -->
+                        
+                    </p>
+                </li>
+                
+            </ul>
+            
+           
+    </main>
+    <footer >
+
+    </footer>
+</body>
